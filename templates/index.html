@@ -1,0 +1,31 @@
+{% extends 'layout.html'%}
+
+{% block title%}
+Home
+{%endblock%}
+
+
+{%block content%}
+<!-- <form action="{{url_for('index')}}" method="post">
+    <label for="">Enter a long Url</label>
+    <input type="text" name="url" placeholder="enter long url">
+    <button>Shorten</button>
+</form> -->
+
+<div class="container">
+    <h3>URL Shortner</h3>
+    <form action="{{url_for('index')}}" method="post" style="margin-bottom: 10px;">
+        <div class="mb-3">
+          <label class="form-label">Long Url</label>
+          <input name="url" class="form-control"  placeholder="enter long url">
+
+        </div>
+        <button type="submit" class="btn btn-primary">Shorten</button>
+      </form>
+      
+    <h4 >Short Url</h4>
+    <p>{{short_url}}</p>
+</div>
+
+
+{%endblock%}

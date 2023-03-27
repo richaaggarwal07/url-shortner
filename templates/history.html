@@ -1,0 +1,40 @@
+{% extends 'layout.html'%}
+
+{% block title%}
+History
+{%endblock%}
+
+
+
+{%block content%}
+
+<div class="container">
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Original URL</th>
+            <th scope="col">Short Id</th>
+            <th scope="col">Short URL</th>
+          </tr>
+        </thead>
+        <tbody>
+
+        {%for record in records%}
+          <tr>
+            <td>{{record.original_url}}</td>
+            <td>{{record.short_id}}</td>
+            <td>{{record.short_url}}</td>
+          </tr>
+        {%endfor%}
+        </tbody>
+      </table>
+</div>
+
+
+<!-- <ul> -->
+<!-- {%for record in records%}
+<li>{{record}}</li>
+{%endfor%} -->
+
+<!-- </ul> -->
+{%endblock%}
