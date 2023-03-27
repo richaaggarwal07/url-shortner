@@ -4,4 +4,3 @@ https://drive.google.com/file/d/1FL7lTSSG_RSavGZrzHOhVkEPcwqlsY0I/view?usp=share
 
 [embed]https://github.com/richaaggarwal07/url-shortner/blob/main/URL%20Shortener%20Report.pdf[/embed]
 
-<iframe src="https://drive.google.com/file/d/1FL7lTSSG_RSavGZrzHOhVkEPcwqlsY0I/view?usp=share_link" width="640" height="480"></iframe>
